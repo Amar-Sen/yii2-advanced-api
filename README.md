@@ -15,7 +15,7 @@ is a separate Yii application.
 The template is designed to work in a team development environment. It supports
 deploying the application in different environments.
 
-Documentation is at [docs/guide/README.md](docs/guide/README.md).
+Documentation is at [README.md](docs/guide/README.md).
 
 DIRECTORY STRUCTURE
 -------------------
@@ -59,3 +59,6 @@ frontend
 vendor/                  contains dependent 3rd-party packages
 environments/            contains environment-based overrides
 ```
+Composer
+```
+Please don't forget to run composer.json to get all the required resources as vendor folder
