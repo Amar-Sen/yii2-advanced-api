@@ -22,10 +22,10 @@ DIRECTORY STRUCTURE
 
 ```
 api
-    config/
-    modules/
-    runtime/
-    web/
+    config/              contains api configurations
+    modules/             contains the v1 module
+    runtime/             contains files generated during runtime
+    web/                 contains entry script for api resource
 common
     config/              contains shared configurations
     mail/                contains view files for e-mails
